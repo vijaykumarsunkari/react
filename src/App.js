@@ -9,7 +9,7 @@ import {  Link } from "react-router-dom";
 export default function App(props) {
   
   const [details, setDetails] = useState([]);
-  const [offset,setOffset]=useState(0);
+  const [offset,setOffset]=useState(10);
   const limit=10;
   const url ="http://localhost:9090/students";
 
